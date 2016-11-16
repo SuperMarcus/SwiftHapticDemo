@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C82455B1D84E7A300E43C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C82455A1D84E7A300E43C05 /* AppDelegate.swift */; };
+		2C82455D1D84E7A300E43C05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C82455C1D84E7A300E43C05 /* ViewController.swift */; };
+		2C82455F1D84E7A300E43C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C82455E1D84E7A300E43C05 /* Assets.xcassets */; };
+		2C8245621D84E7A300E43C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8245601D84E7A300E43C05 /* Main.storyboard */; };
+		2C82456D1D84E7A300E43C05 /* demohapticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C82456C1D84E7A300E43C05 /* demohapticTests.swift */; };
+		2C8245781D84E7A300E43C05 /* demohapticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8245771D84E7A300E43C05 /* demohapticUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C8245691D84E7A300E43C05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C82454F1D84E7A300E43C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8245561D84E7A300E43C05;
+			remoteInfo = demohaptic;
+		};
+		2C8245741D84E7A300E43C05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C82454F1D84E7A300E43C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8245561D84E7A300E43C05;
+			remoteInfo = demohaptic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C8245571D84E7A300E43C05 /* demohaptic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demohaptic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C82455A1D84E7A300E43C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C82455C1D84E7A300E43C05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C82455E1D84E7A300E43C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C8245611D84E7A300E43C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C8245631D84E7A300E43C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8245681D84E7A300E43C05 /* demohapticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demohapticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C82456C1D84E7A300E43C05 /* demohapticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demohapticTests.swift; sourceTree = "<group>"; };
+		2C82456E1D84E7A300E43C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8245731D84E7A300E43C05 /* demohapticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demohapticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8245771D84E7A300E43C05 /* demohapticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demohapticUITests.swift; sourceTree = "<group>"; };
+		2C8245791D84E7A300E43C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C8245541D84E7A300E43C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8245651D84E7A300E43C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8245701D84E7A300E43C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C82454E1D84E7A300E43C05 = {
+			isa = PBXGroup;
+			children = (
+				2C8245591D84E7A300E43C05 /* demohaptic */,
+				2C82456B1D84E7A300E43C05 /* demohapticTests */,
+				2C8245761D84E7A300E43C05 /* demohapticUITests */,
+				2C8245581D84E7A300E43C05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C8245581D84E7A300E43C05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C8245571D84E7A300E43C05 /* demohaptic.app */,
+				2C8245681D84E7A300E43C05 /* demohapticTests.xctest */,
+				2C8245731D84E7A300E43C05 /* demohapticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C8245591D84E7A300E43C05 /* demohaptic */ = {
+			isa = PBXGroup;
+			children = (
+				2C82455A1D84E7A300E43C05 /* AppDelegate.swift */,
+				2C82455C1D84E7A300E43C05 /* ViewController.swift */,
+				2C82455E1D84E7A300E43C05 /* Assets.xcassets */,
+				2C8245601D84E7A300E43C05 /* Main.storyboard */,
+				2C8245631D84E7A300E43C05 /* Info.plist */,
+			);
+			path = demohaptic;
+			sourceTree = "<group>";
+		};
+		2C82456B1D84E7A300E43C05 /* demohapticTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C82456C1D84E7A300E43C05 /* demohapticTests.swift */,
+				2C82456E1D84E7A300E43C05 /* Info.plist */,
+			);
+			path = demohapticTests;
+			sourceTree = "<group>";
+		};
+		2C8245761D84E7A300E43C05 /* demohapticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C8245771D84E7A300E43C05 /* demohapticUITests.swift */,
+				2C8245791D84E7A300E43C05 /* Info.plist */,
+			);
+			path = demohapticUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C8245561D84E7A300E43C05 /* demohaptic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C82457C1D84E7A300E43C05 /* Build configuration list for PBXNativeTarget "demohaptic" */;
+			buildPhases = (
+				2C8245531D84E7A300E43C05 /* Sources */,
+				2C8245541D84E7A300E43C05 /* Frameworks */,
+				2C8245551D84E7A300E43C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demohaptic;
+			productName = demohaptic;
+			productReference = 2C8245571D84E7A300E43C05 /* demohaptic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C8245671D84E7A300E43C05 /* demohapticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C82457F1D84E7A300E43C05 /* Build configuration list for PBXNativeTarget "demohapticTests" */;
+			buildPhases = (
+				2C8245641D84E7A300E43C05 /* Sources */,
+				2C8245651D84E7A300E43C05 /* Frameworks */,
+				2C8245661D84E7A300E43C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C82456A1D84E7A300E43C05 /* PBXTargetDependency */,
+			);
+			name = demohapticTests;
+			productName = demohapticTests;
+			productReference = 2C8245681D84E7A300E43C05 /* demohapticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C8245721D84E7A300E43C05 /* demohapticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8245821D84E7A300E43C05 /* Build configuration list for PBXNativeTarget "demohapticUITests" */;
+			buildPhases = (
+				2C82456F1D84E7A300E43C05 /* Sources */,
+				2C8245701D84E7A300E43C05 /* Frameworks */,
+				2C8245711D84E7A300E43C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8245751D84E7A300E43C05 /* PBXTargetDependency */,
+			);
+			name = demohapticUITests;
+			productName = demohapticUITests;
+			productReference = 2C8245731D84E7A300E43C05 /* demohapticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C82454F1D84E7A300E43C05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Marcus;
+				TargetAttributes = {
+					2C8245561D84E7A300E43C05 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
+					};
+					2C8245671D84E7A300E43C05 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
+						TestTargetID = 2C8245561D84E7A300E43C05;
+					};
+					2C8245721D84E7A300E43C05 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
+						TestTargetID = 2C8245561D84E7A300E43C05;
+					};
+				};
+			};
+			buildConfigurationList = 2C8245521D84E7A300E43C05 /* Build configuration list for PBXProject "demohaptic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C82454E1D84E7A300E43C05;
+			productRefGroup = 2C8245581D84E7A300E43C05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C8245561D84E7A300E43C05 /* demohaptic */,
+				2C8245671D84E7A300E43C05 /* demohapticTests */,
+				2C8245721D84E7A300E43C05 /* demohapticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C8245551D84E7A300E43C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C82455F1D84E7A300E43C05 /* Assets.xcassets in Resources */,
+				2C8245621D84E7A300E43C05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8245661D84E7A300E43C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8245711D84E7A300E43C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C8245531D84E7A300E43C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C82455D1D84E7A300E43C05 /* ViewController.swift in Sources */,
+				2C82455B1D84E7A300E43C05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8245641D84E7A300E43C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C82456D1D84E7A300E43C05 /* demohapticTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C82456F1D84E7A300E43C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8245781D84E7A300E43C05 /* demohapticUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C82456A1D84E7A300E43C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8245561D84E7A300E43C05 /* demohaptic */;
+			targetProxy = 2C8245691D84E7A300E43C05 /* PBXContainerItemProxy */;
+		};
+		2C8245751D84E7A300E43C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8245561D84E7A300E43C05 /* demohaptic */;
+			targetProxy = 2C8245741D84E7A300E43C05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C8245601D84E7A300E43C05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8245611D84E7A300E43C05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C82457A1D84E7A300E43C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C82457B1D84E7A300E43C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2C82457D1D84E7A300E43C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = demohaptic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcuszhou.demohaptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C82457E1D84E7A300E43C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = demohaptic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcuszhou.demohaptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2C8245801D84E7A300E43C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = demohapticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcuszhou.demohapticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demohaptic.app/Contents/MacOS/demohaptic";
+			};
+			name = Debug;
+		};
+		2C8245811D84E7A300E43C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = demohapticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcuszhou.demohapticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demohaptic.app/Contents/MacOS/demohaptic";
+			};
+			name = Release;
+		};
+		2C8245831D84E7A300E43C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = demohapticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcuszhou.demohapticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = demohaptic;
+			};
+			name = Debug;
+		};
+		2C8245841D84E7A300E43C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = demohapticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcuszhou.demohapticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = demohaptic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C8245521D84E7A300E43C05 /* Build configuration list for PBXProject "demohaptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C82457A1D84E7A300E43C05 /* Debug */,
+				2C82457B1D84E7A300E43C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C82457C1D84E7A300E43C05 /* Build configuration list for PBXNativeTarget "demohaptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C82457D1D84E7A300E43C05 /* Debug */,
+				2C82457E1D84E7A300E43C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C82457F1D84E7A300E43C05 /* Build configuration list for PBXNativeTarget "demohapticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8245801D84E7A300E43C05 /* Debug */,
+				2C8245811D84E7A300E43C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8245821D84E7A300E43C05 /* Build configuration list for PBXNativeTarget "demohapticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8245831D84E7A300E43C05 /* Debug */,
+				2C8245841D84E7A300E43C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C82454F1D84E7A300E43C05 /* Project object */;
+}
